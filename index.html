@@ -13,19 +13,24 @@
     <h1>اختبار Karzoun</h1>
 
     <script>
-  window.karzounSettings = {
-    apiUrl: 'https://trusted-united-verification.api.karzoun.chat/clientportal',
-    integrationId: 'kvWQUorzp6K0nXzaRrqqb',
-    features: {
-      messenger: true,
-      pixel: true,
-      kb: false,
-      forms: false,
-    },
-  };
-</script>
-<script src="https://karzoun-pixel.pages.dev/p.js" crossorigin="anonymous" async></script>
+        window.karzounSettings = {
+            apiUrl: 'https://trusted-united-verification.api.karzoun.chat',
+            integrationId: 'kvWQUorzp6K0nXzaRrqqb',
+            features: {
+                messenger: true,
+                pixel: true,
+                kb: false,
+                forms: false
+            }
+        };
 
+        console.log('[Karzoun] Settings:', window.karzounSettings);
+    </script>
+
+    <script
+        src="https://karzoun-pixel.pages.dev/p.js"
+        crossorigin="anonymous">
+    </script>
 
 </body>
 
